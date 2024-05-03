@@ -1,10 +1,10 @@
-### study-of-basic-gates
+# study-of-basic-gates
 
-**AIM:** 
+# AIM:
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
-**Equipments Required:**
+# Equipments Required:
 
 Software – Quartus prime 
 
