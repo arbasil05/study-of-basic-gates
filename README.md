@@ -87,7 +87,8 @@ Register Number : 212223040002
 ![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/b641689f-1c38-4ac5-9bde-6e3b4b8da819)
 
 # RTL realization Output:
-![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/0a55cdec-5e6c-4a75-baec-d6f58b61b9db)
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/3798f2bc-714d-4385-98af-4562fc247fa8)
+
 
 
 
