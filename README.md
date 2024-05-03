@@ -65,17 +65,16 @@ Y= A⊕B
 # PROGRAM :
 
 ```
-module gates_exp1(a, b, c, d, e, x, y, z);
-  input a, b;
-  output c, d, e, x, y, z;
-
-  assign c = a & b;   // AND gate
-  assign d = a | b;   // OR gate
-  assign e = a ^ b;   // XOR gate
-  assign x = ~(a & b); // NAND gate
-  assign y = ~(a | b); // NOR gate
-  assign z = ~(a ^ b); // XNOR gate
-
+module Logicgates(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);	
 endmodule
 
 ```
@@ -88,7 +87,8 @@ Register Number : 212223040002
 ![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/b641689f-1c38-4ac5-9bde-6e3b4b8da819)
 
 # RTL realization Output:
-![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/9d62d15b-daf3-4805-95df-73734e5d3162)
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/0a55cdec-5e6c-4a75-baec-d6f58b61b9db)
+
 
 # RTL:
 ![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/eef17cc9-d18d-4d55-a9d5-7f2c849d24dd)
